@@ -1,0 +1,55 @@
+@media (max-width: 1024px) {
+    main {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 5%;
+    }
+    .image-container {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .image-container img {
+        width: 80%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        padding: 0;
+    }
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    nav a {
+        font-size: 18px;
+    }
+    .content h2 {
+        font-size: 40px;
+    }
+    .content p {
+        font-size: 16px;
+    }
+    .button {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+    .video-container {
+        height: 50vh;
+    }
+    .video-container video {
+        height: 50vh;
+    }
+}
